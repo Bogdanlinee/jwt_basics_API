@@ -3,7 +3,7 @@ require('express-async-errors');
 
 const express = require('express');
 const app = express();
-const mainRouter = require('./routes/main.js')
+const mainRouter = require('./routes/main.js');
 
 const notFoundMiddleware = require('./middleware/not-found');
 const errorHandlerMiddleware = require('./middleware/error-handler');
